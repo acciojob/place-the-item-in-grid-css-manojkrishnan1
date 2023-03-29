@@ -1,2 +1,9 @@
-
-/* Your CSS Code here. */
+.item{
+/* 	background-color:red;
+	padding: 10px; */
+}
+.holder{
+	display: grid;
+	grid-template-rows: repeat(2, 200px);
+	grid-template-columns: repeat(2, 200px);
+}
